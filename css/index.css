@@ -4,6 +4,10 @@
 
 .header-up div a,
 .header-up ul a {
-    display: block;
-    margin: 0 5px;
+    margin: 0px 5px;
+    color: #4d4d4d;
+}
+
+.header-up ul {
+    list-style-type: none;
 }
