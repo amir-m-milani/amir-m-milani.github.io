@@ -1,0 +1,30 @@
+.header-back {
+    height: 30px;
+}
+
+.header {
+    width: 95%;
+}
+
+.header-back ul {
+    list-style-type: none;
+}
+
+.header .icons .second-item::after,
+.header .icons .second-item::before {
+    content: "";
+    width: 1px;
+    height: 15px;
+    display: inline-block;
+    margin: -5px 20px;
+    background-color: rgb(200, 200, 200);
+}
+
+.header ul:nth-of-type(2) a {
+    color: #4d4d4d;
+    margin: 0 5px;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
