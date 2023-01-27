@@ -1,3 +1,9 @@
 * {
     font-family: sans-serif;
 }
+
+.header-up div a,
+.header-up ul a {
+    display: block;
+    margin: 0 5px;
+}
