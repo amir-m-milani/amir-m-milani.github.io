@@ -28,3 +28,9 @@
 .no-wrap {
     white-space: nowrap;
 }
+
+.news {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
