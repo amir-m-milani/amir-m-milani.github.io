@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'TT-regular-Pro';
+    src: url('../fonts/TTNormsPro-Regular.woff2') format('woff2'),
+        url('../fonts/TTNormsPro-Regular.woff') format('woff'),
+        url('../fonts/TTNormsPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .header-back {
     height: 30px;
 }
