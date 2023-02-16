@@ -89,3 +89,20 @@
     font-weight: bold;
     border-bottom: 1px solid rgba(117, 117, 117, 0.5);
 }
+
+.grids-part {
+    padding: 0 30px;
+    margin-top: 80px;
+}
+
+.zoom-image {
+    overflow: hidden;
+}
+
+.grids-part .zoom-image img {
+    transition: all 0.3s ease 0s;
+}
+
+.grids-part .zoom-image:hover img {
+    transform: scale(1.2);
+}
