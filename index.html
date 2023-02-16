@@ -97,14 +97,6 @@
     </nav>
     <!-- end Header -->
 
-    <!-- <div class="container-fluid p-0">
-        <div class="row">
-            <div class="col-12 asus-banner">
-                <img class="w-100" src="images/banner.png" alt="banner">
-            </div>
-        </div>
-    </div> -->
-
     <!-- Banner -->
     <div class="asus-banner"></div>
 
@@ -113,19 +105,21 @@
         <div class="mx-lg-auto">
             <div class="row justify-content-around">
                 <!-- left banner -->
-                <div class="col-lg-7 p-0">
+                <div class="col-lg-7">
                     <a href="#"><img class="w-100" src="images/top_news.jpg" alt="New asus"></a>
-                    <p>creator,new product</p>
-                    <h3>
-                        <a class="text-decoration-none text-black" href="#">New ASUS Creator Laptops Shine Bright at CES
-                            2023</a>
+                    <p id="left-banner-sub">creator,new product</p>
+                    <h3 id="left-banner-title">
+                        <a class="text-decoration-none text-black" href="#">
+                            New ASUS Creator Laptops Shine Bright at CES
+                            2023
+                        </a>
                     </h3>
                     <p>Jan.5 2023 ‧ 4 min read</p>
                     <p>
                         Discover the three new thin and light ASUS Zenbook laptops for
                         creators, announced at CES 2023
                     </p>
-                    <div class="news-button rounded mx-auto mx-lg-0">
+                    <div class="news-button rounded mx-auto mx-lg-0 d-lg- mt-lg-2block">
                         <a href="#"
                             class="text-decoration-none text-white d-flex justify-content-center align-items-center position-relative w-100 h-100">
                             <div class="backgorund-white position-absolute top-0"></div>
@@ -134,16 +128,18 @@
                     </div>
                 </div>
                 <!-- right part of news -->
-                <div class="col-lg-4 d-none d-lg-block p-0 right-part">
+                <div class="col-lg-4 d-none d-lg-block right-part">
                     <h3 class="text-uppercase">latest news</h3>
                     <div class="latest-news">
                         <a href="" class="d-lg-flex align-items-center text-decoration-none">
                             <div class="flex-shrink-0 news-image">
                                 <img class="w-100" src="images/ces_03.jpg">
                             </div>
-                            <p class="text-uppercase px-2">
-                                Seeing an Incredible Future- CES 2023 ASUS Launch Event
-                            </p>
+                            <div class="news-text">
+                                <p class="text-uppercase">
+                                    Seeing an Incredible Future- CES 2023 ASUS Launch Event
+                                </p>
+                            </div>
                         </a>
                     </div>
                     <div class="my-4 latest-news">
@@ -151,9 +147,11 @@
                             <div class="flex-shrink-0 news-image">
                                 <img class="w-100" src="images/latest_news_01.jpg">
                             </div>
-                            <p class="text-uppercase px-2">
-                                Sustaining an Incredible Future
-                            </p>
+                            <div class="news-text">
+                                <p class="text-uppercase">
+                                    Sustaining an Incredible Future
+                                </p>
+                            </div>
                         </a>
                     </div>
                     <div class="my-4 latest-news">
@@ -161,9 +159,11 @@
                             <div class="flex-shrink-0 news-image">
                                 <img class="w-100" src="images/latest_news_02.jpg">
                             </div>
-                            <p class="text-uppercase px-2">
-                                ASUS Spatial Vision – Let your creativity shine in 3D
-                            </p>
+                            <div class="news-text">
+                                <p class="text-uppercase">
+                                    ASUS Spatial Vision – Let your creativity shine in 3D
+                                </p>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -174,8 +174,9 @@
     <!-- grids -->
     <div class="container-fluid grids-part">
         <div class="row px-3">
+            <!-- product 1-1 -->
             <div class="col-lg-4 col-12 d-flex d-lg-block content">
-                <div class="zoom-image me-2">
+                <div class="zoom-image mb-lg-3 me-2 me-lg-0">
                     <a href="#">
                         <img class="w-100" src="images/list_cover_24.jpg">
                     </a>
@@ -183,11 +184,11 @@
                 <div class="position-relative content-text">
                     <p class="text-uppercase my-0 category">Professional, Guide</p>
                     <p class="position-absolute my-0 content-time">5 min read</p>
-                    <a class="d-block text-decoration-none fw-bold text-black" href="#">
+                    <a class="d-block text-decoration-none fw-bold content-title" href="#">
                         <!-- #434446 -->
                         Why ASUS Zenbook Is the Right Choice for Digital Nomads
                     </a>
-                    <div class="news-button rounded d-none">
+                    <div class="news-button rounded d-none d-lg-block mt-lg-2">
                         <a href="#"
                             class="text-decoration-none text-white d-flex justify-content-center align-items-center position-relative w-100 h-100">
                             <div class="backgorund-white position-absolute top-0"></div>
@@ -196,20 +197,43 @@
                     </div>
                 </div>
             </div>
+            <!-- product 1-2 -->
             <div class="col-lg-4 col-12 d-flex d-lg-block content">
-                <div class="zoom-image me-2">
+                <div class="zoom-image mb-lg-3 me-2 me-lg-0">
                     <a href="#">
-                        <img class="w-100" src="images/list_cover_24.jpg">
+                        <img class="w-100" src="images/list_cover_23.jpg">
                     </a>
                 </div>
                 <div class="position-relative content-text">
-                    <p class="text-uppercase my-0 category">Professional, Guide</p>
-                    <p class="position-absolute my-0 content-time">5 min read</p>
-                    <a class="d-block text-decoration-none fw-bold text-black" href="#">
-                        <!-- #434446 -->
-                        Why ASUS Zenbook Is the Right Choice for Digital Nomads
+                    <p class="text-uppercase my-0 category">Creator, Trends & News</p>
+                    <p class="position-absolute my-0 content-time">6 min read</p>
+                    <a class="d-block text-decoration-none fw-bold content-title" href="#">
+                        7 Content Hype Trains to Jump On in 2023
                     </a>
-                    <div class="news-button rounded d-none">
+                    <div class="news-button rounded d-none d-lg-block mt-lg-2">
+                        <a href="#"
+                            class="text-decoration-none text-white d-flex justify-content-center align-items-center position-relative w-100 h-100">
+                            <div class="backgorund-white position-absolute top-0"></div>
+                            <span>LEARN MORE</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- product 1-3 -->
+            <div class="col-lg-4 col-12 d-flex d-lg-block content">
+                <div class="zoom-image mb-lg-3 me-2 me-lg-0">
+                    <a href="#">
+                        <img class="w-100" src="images/list_cover_22.jpg">
+                    </a>
+                </div>
+                <div class="position-relative content-text">
+                    <p class="text-uppercase my-0 category">All, Tech</p>
+                    <p class="position-absolute my-0 content-time">4 min read</p>
+                    <a class="d-block text-decoration-none fw-bold content-title" href="#">
+                        Experience 3D Immersion via ASUS Spatial Vision Technology
+                    </a>
+                    <div class="news-button rounded d-none d-lg-block mt-lg-2">
                         <a href="#"
                             class="text-decoration-none text-white d-flex justify-content-center align-items-center position-relative w-100 h-100">
                             <div class="backgorund-white position-absolute top-0"></div>
@@ -219,6 +243,81 @@
                 </div>
             </div>
         </div>
+        <!-- row 2 -->
+        <div class="row px-3 mt-lg-5">
+            <!-- product 2-1 -->
+            <div class="col-lg-4 col-12 d-flex d-lg-block content">
+                <div class="zoom-image mb-lg-3 me-2 me-lg-0">
+                    <a href="#">
+                        <img class="w-100" src="images/list_cover_21.jpg">
+                    </a>
+                </div>
+                <div class="position-relative content-text">
+                    <p class="text-uppercase my-0 category">Lifestyle, Sustainability</p>
+                    <p class="position-absolute my-0 content-time">5 min read</p>
+                    <a class="d-block text-decoration-none fw-bold content-title" href="#">
+                        <!-- #434446 -->
+                        How ASUS Helps Sustain an Incredible, Greener Future
+                    </a>
+                    <div class="news-button rounded d-none d-lg-block mt-lg-2">
+                        <a href="#"
+                            class="text-decoration-none text-white d-flex justify-content-center align-items-center position-relative w-100 h-100">
+                            <div class="backgorund-white position-absolute top-0"></div>
+                            <span>LEARN MORE</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- product 2-2 -->
+            <div class="col-lg-4 col-12 d-flex d-lg-block content">
+                <div class="zoom-image mb-lg-3 me-2 me-lg-0">
+                    <a href="#">
+                        <img class="w-100" src="images/list_cover_20.jpg">
+                    </a>
+                </div>
+                <div class="position-relative content-text">
+                    <p class="text-uppercase my-0 category">All, Tech</p>
+                    <p class="position-absolute my-0 content-time">6 min read</p>
+                    <a class="d-block text-decoration-none fw-bold content-title" href="#">
+                        6 Reasons to Choose ASUS Laptops: Our Commitments at CES
+                        2023
+                    </a>
+                    <div class="news-button rounded d-none d-lg-block mt-lg-2">
+                        <a href="#"
+                            class="text-decoration-none text-white d-flex justify-content-center align-items-center position-relative w-100 h-100">
+                            <div class="backgorund-white position-absolute top-0"></div>
+                            <span>LEARN MORE</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- product 2-3 -->
+            <div class="col-lg-4 col-12 d-flex d-lg-block content">
+                <div class="zoom-image mb-lg-3 me-2 me-lg-0">
+                    <a href="#">
+                        <img class="w-100" src="images/list_cover_19.jpg">
+                    </a>
+                </div>
+                <div class="position-relative content-text">
+                    <p class="text-uppercase my-0 category">ALL, NEW PRODUCT</p>
+                    <p class="position-absolute my-0 content-time">5-7 min read</p>
+                    <a class="d-block text-decoration-none fw-bold content-title" href="#">
+                        Unfold the Incredible With ASUS Zenbook 17 Fold OLED
+                    </a>
+                    <div class="news-button rounded d-none d-lg-block mt-lg-2">
+                        <a href="#"
+                            class="text-decoration-none text-white d-flex justify-content-center align-items-center position-relative w-100 h-100">
+                            <div class="backgorund-white position-absolute top-0"></div>
+                            <span>LEARN MORE</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- row 3 -->
+
     </div>
 
 </body>
