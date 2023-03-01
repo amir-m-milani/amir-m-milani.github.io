@@ -190,4 +190,10 @@
     .content-text .category {
         font-size: 14px;
     }
+
+    .main-footer {
+        width: 90%;
+        background-color: blue;
+    }
+
 }
