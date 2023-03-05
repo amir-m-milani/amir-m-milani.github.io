@@ -100,6 +100,24 @@
     width: 90%;
 }
 
+.main-footer .shop-learn {
+    width: 50%;
+}
+
+.main-footer .shop-learn .custom-col-footer>div {
+    width: 33.33%;
+}
+
+.main-footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-footer ul a {
+    color: black;
+    text-decoration: none;
+}
+
 /* Mobile */
 @media all and (max-width:992px) {
 
