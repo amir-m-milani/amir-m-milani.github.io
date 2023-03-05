@@ -116,6 +116,11 @@
 .main-footer ul a {
     color: black;
     text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.main-footer ul a:hover {
+    text-decoration: underline;
 }
 
 /* Mobile */
