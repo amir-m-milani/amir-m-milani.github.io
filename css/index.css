@@ -100,17 +100,17 @@
     width: 90%;
 }
 
-.main-footer .shop-learn {
-    width: 50%;
+.main-footer ul li a {
+    color: gray;
 }
 
-.main-footer .shop-learn .custom-col-footer>div {
-    width: 33.33%;
-}
-
+.main-footer h6,
 .main-footer ul {
     list-style-type: none;
+    line-height: 30px;
     padding: 0;
+    margin: 0;
+    font-size: 14px;
 }
 
 .main-footer ul a {
@@ -122,6 +122,12 @@
 .main-footer ul a:hover {
     text-decoration: underline;
 }
+
+/* .learn-more-footer,
+.support-footer,
+.about-us {
+    width: 16.66%;
+} */
 
 /* Mobile */
 @media all and (max-width:992px) {
