@@ -323,7 +323,7 @@
     <!-- Footer -->
 
     <!-- Laptop -->
-    <div class="w-100 pt-4 footer-background">
+    <div class="w-100 pt-4 d-none d-lg-block footer-background">
         <div class="mx-lg-auto d-lg-flex justify-content-lg-between main-footer">
             <!-- Shop and Learn -->
             <div class="w-50 shop-learn">
@@ -515,185 +515,194 @@
     </div>
 
     <!-- Mobile -->
-    <div class="accordion d-lg-none d-block" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    Shop and Learn
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div>
-                        <h6>
-                            Mobile
-                        </h6>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    Phones
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Accessories
-                                </a>
-                            </li>
-                        </ul>
-                        <h6>Laptops</h6>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    For Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    For Work
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    For Creators
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    For Students
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    For Gaming
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Accessories
-                                </a>
-                            </li>
-                        </ul>
-                        <h6>Displays / Desktops</h6>
-                        <ul>
-                            <li><a href="#">Monitors</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">All-in-one PCs</a></li>
-                            <li><a href="#">Tower PCs</a></li>
-                            <li><a href="#">Gaming Tower PCs</a></li>
-                            <li><a href="#">Mini PCs</a></li>
-                        </ul>
+    <div class="d-lg-none d-block mobile-footer mx-auto mb-4">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Shop and Learn
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div>
+                            <h6>
+                                Mobile
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Phones
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Accessories
+                                    </a>
+                                </li>
+                            </ul>
+                            <h6>Laptops</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        For Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        For Work
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        For Creators
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        For Students
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        For Gaming
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Accessories
+                                    </a>
+                                </li>
+                            </ul>
+                            <h6>Displays / Desktops</h6>
+                            <ul>
+                                <li><a href="#">Monitors</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">All-in-one PCs</a></li>
+                                <li><a href="#">Tower PCs</a></li>
+                                <li><a href="#">Gaming Tower PCs</a></li>
+                                <li><a href="#">Mini PCs</a></li>
+                            </ul>
+                        </div>
+                        <!-- col-2 -->
+                        <div>
+                            <ul>
+                                <li><a href="#">Workstaions</a></li>
+                                <li><a href="#">Accessories</a></li>
+                            </ul>
+                            <h6>Motherboards / Components</h6>
+                            <ul>
+                                <li><a href="#">Motherboards</a></li>
+                                <li><a href="#">Graphic Cards</a></li>
+                                <li><a href="#">Gaming Cases</a></li>
+                                <li><a href="#">Cooling</a></li>
+                                <li><a href="#">Power Supply Units</a></li>
+                                <li><a href="#">Sound Cards</a></li>
+                                <li><a href="#">Optical Drives</a></li>
+                                <li><a href="#">Data Storage</a></li>
+                                <li><a href="#">
+                                        External Graphics Docks</a></li>
+                            </ul>
+                            <h6>Networking / IoT / Servers</h6>
+                            <ul>
+                                <li><a href="#">WiFi 7</a></li>
+                                <li><a href="#">WiFi 6</a></li>
+                                <li><a href="#">WiFi Routers</a></li>
+                                <li><a href="#">
+                                        Whole Home Mesh WiFi System
+                                    </a></li>
+                                <li><a href="#">
+                                        Business Network Solutions
+                                    </a></li>
+                            </ul>
+                        </div>
+                        <!-- col-3 -->
+                        <div class="d-none d-xl-block">
+                            <ul>
+                                <li><a href="#">Wired Networking</a></li>
+                                <li><a href="#">Intelligent Robots</a></li>
+                                <li><a href="#">
+                                        AIoT & Industrial Solutions
+                                    </a></li>
+                                <li><a href="#">Servers</a></li>
+                                <li><a href="#">Smart Home</a></li>
+                            </ul>
+                            <h6>Accessories</h6>
+                            <ul>
+                                <li><a href="#">Keyboards</a></li>
+                                <li><a href="#">Mice and Mouse Pads</a></li>
+                                <li><a href="#">
+                                        Headsets and Audio
+                                    </a></li>
+                                <li><a href="#">Streaming Kits</a></li>
+                                <li><a href="#">
+                                        Apparel Bags and Gear
+                                    </a></li>
+                                <li><a href="#">
+                                        Adapters and Chargers
+                                    </a></li>
+                                <li><a href="#">
+                                        Docks Dongles and Cable
+                                    </a></li>
+                                <li><a href="#">
+                                        Power Banks
+                                    </a></li>
+                                <li><a href="#">Cotroller</a></li>
+                                <li><a href="#">Gimbal</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <!-- col-2 -->
-                    <div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Learn More
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
                         <ul>
-                            <li><a href="#">Workstaions</a></li>
-                            <li><a href="#">Accessories</a></li>
-                        </ul>
-                        <h6>Motherboards / Components</h6>
-                        <ul>
-                            <li><a href="#">Motherboards</a></li>
-                            <li><a href="#">Graphic Cards</a></li>
-                            <li><a href="#">Gaming Cases</a></li>
-                            <li><a href="#">Cooling</a></li>
-                            <li><a href="#">Power Supply Units</a></li>
-                            <li><a href="#">Sound Cards</a></li>
-                            <li><a href="#">Optical Drives</a></li>
-                            <li><a href="#">Data Storage</a></li>
-                            <li><a href="#">
-                                    External Graphics Docks</a></li>
-                        </ul>
-                        <h6>Networking / IoT / Servers</h6>
-                        <ul>
-                            <li><a href="#">WiFi 7</a></li>
-                            <li><a href="#">WiFi 6</a></li>
-                            <li><a href="#">WiFi Routers</a></li>
-                            <li><a href="#">
-                                    Whole Home Mesh WiFi System
-                                </a></li>
-                            <li><a href="#">
-                                    Business Network Solutions
-                                </a></li>
-                        </ul>
-                    </div>
-                    <!-- col-3 -->
-                    <div class="d-none d-xl-block">
-                        <ul>
-                            <li><a href="#">Wired Networking</a></li>
-                            <li><a href="#">Intelligent Robots</a></li>
-                            <li><a href="#">
-                                    AIoT & Industrial Solutions
-                                </a></li>
-                            <li><a href="#">Servers</a></li>
-                            <li><a href="#">Smart Home</a></li>
-                        </ul>
-                        <h6>Accessories</h6>
-                        <ul>
-                            <li><a href="#">Keyboards</a></li>
-                            <li><a href="#">Mice and Mouse Pads</a></li>
-                            <li><a href="#">
-                                    Headsets and Audio
-                                </a></li>
-                            <li><a href="#">Streaming Kits</a></li>
-                            <li><a href="#">
-                                    Apparel Bags and Gear
-                                </a></li>
-                            <li><a href="#">
-                                    Adapters and Chargers
-                                </a></li>
-                            <li><a href="#">
-                                    Docks Dongles and Cable
-                                </a></li>
-                            <li><a href="#">
-                                    Power Banks
-                                </a></li>
-                            <li><a href="#">Cotroller</a></li>
-                            <li><a href="#">Gimbal</a></li>
+                            <li><a href="#">Asus Design Center</a></li>
+                            <li><a href="#">ASUSPRO</a></li>
+                            <li><a href="#">Atomative Solutions</a></li>
+                            <li><a href="#">AVC Licensing Notice</a></li>
+                            <li><a href="#">ASUS Blog</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Accordion Item #2
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Support
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a href="#">Check Repair Status</a></li>
+                            <li><a href="#">Find Service Locations</a></li>
+                            <li><a href="#">Product Registration</a></li>
+                            <li><a href="#">Email Us</a></li>
+                            <li><a href="#">Call Us</a></li>
+                            <li><a href="#">Security Advisory</a></li>
+                            <li><a href="#">ASUS Support Videos</a></li>
+                            <li><a href="#">MyASUS</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 
 </body>
 

@@ -123,11 +123,6 @@
     text-decoration: underline;
 }
 
-/* .learn-more-footer,
-.support-footer,
-.about-us {
-    width: 16.66%;
-} */
 
 /* Mobile */
 @media all and (max-width:992px) {
@@ -174,6 +169,11 @@
     .content-text .category {
         font-size: 14px;
     }
+
+    .mobile-footer {
+        width: 90%;
+    }
+
 }
 
 /* Notebooks and Laptops */
@@ -226,7 +226,6 @@
     .content-text .category {
         font-size: 14px;
     }
-
 
 
 }
